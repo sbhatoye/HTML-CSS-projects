@@ -1,0 +1,182 @@
+/* reset browser default settings*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page_container {
+  background-color: black;
+  min-height: 100vh;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.page_content {
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+header {
+  max-height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img {
+  height: 50px;
+  opacity: 0.9;
+  padding: 8px 10px;
+}
+
+header nav {
+  text-decoration: underline;
+  display: flex;
+}
+
+header nav a h5 {
+  padding-right: 20px;
+  color: seashell;
+}
+
+header nav a:link {
+  text-decoration: none;
+}
+
+header nav a:visited {
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: none;
+}
+
+header nav active {
+  text-decoration: none;
+}
+
+.mission_container {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*91rncn*_ga*NDUzMjcyNDI5OS4xNjYwMDczNzQ2*_ga_3LRZM6TM9L*MTY4NjI3Mjg3MC4zNDAuMS4xNjg2MjcyOTAwLjMwLjAuMA..");
+  height: 700px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission_text {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+}
+
+.mission_text h2,
+h4 {
+  margin: 10px auto;
+}
+
+.featured_tea_container {
+  max-width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.featured_tea_heading {
+  text-align: center;
+}
+
+.featured_tea_container .featured_tea_images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.featured_tea_container .featured_tea_images img {
+  max-height: 200px;
+  max-width: 300px;
+  margin: 15px;
+}
+
+.featured_tea_container .featured_tea_images figcaption {
+  text-align: center;
+}
+
+.locations_container {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1gp1mky*_ga*NDUzMjcyNDI5OS4xNjYwMDczNzQ2*_ga_3LRZM6TM9L*MTY4NjMzMjMzMC4zNDQuMC4xNjg2MzMyMzMwLjYwLjAuMA..");
+  height: 500px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.locations_heading {
+  text-align: center;
+}
+
+.locations_info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.address {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  margin: 15px 20px;
+  padding: 10px 40px;
+  background-color: black;
+  opacity: 1;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+footer .contact {
+  margin-top: 30px;
+}
+
+footer .phone {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+footer .copyright {
+  text-align: left;
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
