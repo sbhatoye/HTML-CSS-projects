@@ -1,0 +1,208 @@
+/* reset browser default styling settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page_container {
+  background-color: #dce0f2;
+  min-height: 100vh;
+  border: 10px solid #3258a6;
+}
+
+.page_content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.quote_container {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 25px;
+  color: #3258a6;
+  font-family: "Lucida Grande", monospace;
+  font-family: palatino, serif;
+}
+
+.top_section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.top_section h1 {
+  font-size: 70px;
+  color: #a66844;
+  text-align: right;
+  /* font-family: palatino, serif; */
+  /* font-family: andale mono, monospace; */
+  font-family: "bradley hand", cursive;
+  text-transform: uppercase;
+}
+
+.top_section h4 {
+  font-size: 30px;
+  color: #a66844;
+  text-align: right;
+  /* font-family: 'Lucida Grande', monospace; */
+  font-family: comic sans ms, cursive;
+}
+
+.image_container {
+  border-radius: 170px;
+  overflow: hidden;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+}
+
+.image_container,
+img {
+  width: 300px;
+  height: 320px;
+}
+
+.bio_section {
+  margin: 50px 0;
+}
+
+.bio_section h2 {
+  font-size: 45px;
+  font-family: "bradley hand", cursive;
+  margin-bottom: 30px;
+  /* color: #294973; */
+  color: #3258a6;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+
+.bio_section p {
+  font-size: 20px;
+  /* font-family: 'Lucida Grande', monospace; */
+  font-family: palatino, serif;
+  /* font-family: baskerville, sans-serif; */
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  margin-bottom: 40px;
+  color: #294973;
+}
+
+footer {
+  margin: 70px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .learn_more {
+  background-color: #d90d0d;
+  border-radius: 30px;
+  padding: 25px;
+}
+
+footer .learn_more a {
+  color: white;
+  font-family: comic sans ms, cursive;
+  font-weight: bold;
+}
+
+/* to remove underline from hyperlink */
+
+footer .learn_more a:link {
+  text-decoration: none;
+}
+
+footer .learn_more a:visited {
+  text-decoration: none;
+}
+
+footer .learn_more a:hover {
+  text-decoration: none;
+}
+
+footer .learn_more active {
+  text-decoration: none;
+}
+
+footer .official_website {
+  background-color: #d90d0d;
+  border-radius: 30px;
+  padding: 25px;
+}
+
+footer .official_website a {
+  color: white;
+  font-family: comic sans ms, cursive;
+  font-weight: bold;
+}
+
+footer .official_website a:link {
+  text-decoration: none;
+}
+
+footer .official_website a:visited {
+  text-decoration: none;
+}
+
+footer .official_website a:hover {
+  text-decoration: none;
+}
+
+footer .official_website active {
+  text-decoration: none;
+}
+
+footer .instagram {
+  background-color: #d90d0d;
+  border-radius: 30px;
+  padding: 25px;
+}
+
+footer .instagram a {
+  color: white;
+  font-family: comic sans ms, cursive;
+  font-weight: bold;
+}
+
+footer .instagram a:link {
+  text-decoration: none;
+}
+
+footer .instagram a:visited {
+  text-decoration: none;
+}
+
+footer .instagram a:hover {
+  text-decoration: none;
+}
+
+footer .instagram active {
+  text-decoration: none;
+}
+
+footer .twitter {
+  background-color: #d90d0d;
+  border-radius: 30px;
+  padding: 25px;
+}
+
+footer .twitter a {
+  color: white;
+  font-family: comic sans ms, cursive;
+  font-weight: bold;
+}
+
+footer .twitter a:link {
+  text-decoration: none;
+}
+
+footer .twitter a:visited {
+  text-decoration: none;
+}
+
+footer .twitter a:hover {
+  text-decoration: none;
+}
+
+footer .twitter active {
+  text-decoration: none;
+}
