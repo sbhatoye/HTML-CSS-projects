@@ -2,9 +2,13 @@
 
 ## 1) Andy Murray Informational
 
+### About 
+
+This is a one-page informational about tennis player Andy Murray.
+
 ### Inspiration
 
-I had watched Andy Murray's documentary on Prime called Resurfacing and I was really 
+I watched Andy Murray's documentary on Prime called Resurfacing and I was curious to learn more about him. As I was researching, I got inspired to make my first HTML/CSS project on him and pay tribute to his impressive journey as an athlete.
 
 ### Design
 
