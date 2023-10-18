@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+:root {
+  --title-bg-color: black;
+  --desc-bg-color: orangered;
+  --quote-bg-color: orangered;
+}
+
+/* Background images for all sections */
+
+#intro-page {
+  background-image: url(/resources/images/bali-indonesia.jpg);
+  min-height: 100%;
+}
+
+#taj-mahal {
+  background-image: url(/resources/images/taj-mahal.png);
+  min-height: 30rem;
+}
+
+#zanzibar {
+  background-image: url(/resources/images/zanzibar.jpeg);
+  min-height: 30rem;
+}
+
+#maasai-mara {
+  background-image: url(/resources/images/maasai-mara-kenya.jpg);
+  min-height: 30rem;
+}
+
+#isle-of-sky {
+  background-image: url(/resources/images/isle-of-skye-scotland.jpg);
+  min-height: 30rem;
+}
+
+#grand-canyon {
+  background-image: url(/resources/images/grand-canyon.jpg);
+  min-height: 30rem;
+}
+
+#end-quote-image {
+  background-image: url(/resources/images/sunset1.avif);
+  min-height: 30rem;
+}
+
+#reference-image {
+  background-image: url(/resources/images/sunset2.avif);
+  min-height: 30rem;
+}
+
+#end-page {
+  background-image: url(/resources/images/bali-indonesia.jpg);
+  min-height: 100%;
+}
+
+/* Stlying for sunset background pictures for each section */
+
+#intro-page,
+#taj-mahal,
+#zanzibar,
+#maasai-mara,
+#isle-of-sky,
+#grand-canyon,
+#end-quote-image,
+#reference-image,
+#end-page {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Generic styling for description and title classes */
+
+.title {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  text-align: center;
+  font-family: Lato, sans-serif;
+}
+
+.title p,
+span {
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.description {
+  padding: 7rem;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  line-height: 3rem;
+}
+
+/* Quotes */
+
+.quote {
+  padding: 7rem;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  font-family: serif;
+  line-height: 4rem;
+}
+
+#intro-quote {
+  --quote-bg-color: #190a41;
+  background-color: var(--quote-bg-color);
+}
+
+#end-quote {
+  --quote-bg-color: #3c1f31;
+  background-color: var(--quote-bg-color);
+}
+
+/* Title and description background colors */
+
+#intro-page p {
+  --title-bg-color: black;
+  background: var(--title-bg-color);
+}
+
+#taj-mahal span {
+  --title-bg-color: #e83d28;
+  background: var(--title-bg-color, black);
+}
+
+#taj-mahal-desc {
+  --desc-bg-color: #774bbf;
+  background-color: var(--desc-bg-color, orangered);
+}
+
+#zanzibar span {
+  --title-bg-color: #868fab;
+  background-color: var(--title-bg-color, black);
+}
+
+#zanzibar-desc {
+  --desc-bg-color: #1c0d52;
+  background-color: var(--desc-bg-color, orangered);
+}
+
+#maasai-mara span {
+  --title-bg-color: black;
+  background-color: var(--title-bg-color);
+}
+
+#maasai-mara-desc {
+  --desc-bg-color: #db5b1d;
+  background-color: var(--desc-bg-color, orangered);
+}
+
+#isle-of-sky span {
+  --title-bg-color: #749baa;
+  background-color: var(--title-bg-color, black);
+}
+
+#isle-of-sky-desc {
+  --desc-bg-color: #212c27;
+  background-color: var(--desc-bg-color, orangered);
+}
+
+#grand-canyon span {
+  --title-bg-color: #d55b01;
+  background-color: var(--title-bg-color, black);
+}
+
+#grand-canyon-desc {
+  --desc-bg-color: #501f15;
+  background-color: var(--desc-bg-color, orangered);
+}
+
+#reference {
+  --desc-bg-color: #7b3190;
+  background-color: var(--desc-bg-color, orangered);
+}
+
+#end-page p {
+  --title-bg-color: black;
+  background: var(--title-bg-color);
+}
+
+/* Responsive design */
+
+@media (min-width: 360px) and (max-width: 480px) {
+  .title p,
+  span {
+    font-size: 1.2rem;
+    letter-spacing: 0.4rem;
+  }
+
+  .quote,
+  .description {
+    padding: 4.5rem 3rem;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+  }
+}
