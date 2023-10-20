@@ -62,7 +62,7 @@ I have filled out many paper copies of forms for my pet before but have never co
 
 Design created using Figma: [Grooming Form - Figma Design Link](https://www.figma.com/file/3pMrP87Pk1saq2WxLK43ND/Grooming-Form?type=design&node-id=0%3A1&mode=design&t=Gbcf8YMI0XleOoxS-1)
 
-![Pet-Grooming-Form](https://github.com/sbhatoye/HTML-CSS-projects/assets/121978043/a9c6eb14-293a-4e26-bb8c-5ab9aa187932)
+![pet-grooming-form-figma-design](https://github.com/sbhatoye/HTML-CSS-projects/assets/121978043/8980c2d3-52a1-4767-bff3-47c9c97d84ad)
 
 ### Key Learnings
 
