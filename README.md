@@ -42,7 +42,6 @@ Design specification provided by Codecademy: [Tea Cozy Project Design](https://c
 ### Key Learnings 
 
 - Following a design spec with specified guidelines to build a webpage
-
 - CSS Flexbox layout
 
 ### Self-Review
@@ -78,5 +77,23 @@ Design created using Figma: [Grooming Form - Figma Design Link](https://www.figm
 - Good use of class keyword in tags to group sections with similar styling together 
 - Responsive design does not take devices with screen sizes smaller than 470px  into consideration 
 
+## 4) Scenic Sunsets
 
+### About 
 
+This is a parallax website featuring some of the most scenic sunsets in the world. Implemented using CSS custom properties. 
+
+### Inspiration
+
+When I came across the parallax scrolling effect, I found it to be very interesting and captivating and wanted to try implementing it myself. 
+
+### Design
+
+Design created using Figma: [Scenic Sunset - Figma Design Link](https://www.figma.com/file/rNLsKnb1tQ4wgL1RIkPp0g/Scenic-Sunsets?type=design&node-id=0%3A1&mode=design&t=wUcgPd8IawWV4P03-1)
+
+![design-screenshot](https://github.com/sbhatoye/HTML-CSS-projects/assets/121978043/685c1c7c-2bf0-4751-8190-23d4c63433af)
+
+### Key Learnings
+
+- Parallax scrolling effect
+- CSS custom properties
