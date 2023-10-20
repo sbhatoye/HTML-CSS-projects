@@ -29,6 +29,12 @@ Design created using Figma: [Andy Murray Page - Figma Design Link](https://www.f
 
 ## 2) Tea Cozy (Codecademy)
 
+### Site
+
+[Tea Cozy Site Link](https://tea-cozy-cafe.netlify.app/)
+
+![tea-cozy-site-screenshot](https://github.com/sbhatoye/HTML-CSS-projects/assets/121978043/b5c2559c-ecc8-4b0c-a2e0-a71633d0e66b)
+
 ### About
 
 As part of Codecademy's Intermediate CSS course, I had to complete an off-platform project. A design specification of a webpage was provided with an outline of all the important CSS properties and values. 
