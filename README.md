@@ -31,8 +31,9 @@ Design created using Figma: [Andy Murray Page - Figma Design Link](https://www.f
 
 ### Site
 
-[Tea Cozy Site Link](https://tea-cozy-cafe.netlify.app/)
-
+```http
+  [Tea Cozy Site Link](https://tea-cozy-cafe.netlify.app/)
+```
 ![tea-cozy-site-screenshot](https://github.com/sbhatoye/HTML-CSS-projects/assets/121978043/b5c2559c-ecc8-4b0c-a2e0-a71633d0e66b)
 
 ### About
