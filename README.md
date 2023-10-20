@@ -2,6 +2,12 @@
 
 ## 1) Andy Murray Informational
 
+### Site
+
+>  [Andy Murray Site Link](https://andy-murray-informational.netlify.app/)
+
+![andy-murray-site-screenshot](https://github.com/sbhatoye/HTML-CSS-projects/assets/121978043/ad6f673d-4ff9-40d1-8a60-f30219b71749)
+
 ### About 
 
 This is a one-page informational about tennis player Andy Murray.
@@ -18,14 +24,14 @@ Design created using Figma: [Andy Murray Page - Figma Design Link](https://www.f
 
 ### Key Learnings
 
-- Semantic HTML
-- Web safe fonts
-- Hyperlink visibility of anchor elements
+> - Semantic HTML
+> - Web safe fonts
+> - Hyperlink visibility of anchor elements
 
 ### Self-Review
 
-- Understand difference between using class and id for tags
-- Repetition of code in CSS file could have been avoided (see above)
+> - Understand difference between using class and id for tags
+> - Repetition of code in CSS file could have been avoided (see above)
 
 ## 2) Tea Cozy (Codecademy)
 
@@ -47,14 +53,20 @@ Design specification provided by Codecademy: [Tea Cozy Project Design](https://c
 
 ### Key Learnings 
 
-- Following a design spec with specified guidelines to build a webpage
-- CSS Flexbox layout
+> - Following a design spec with specified guidelines to build a webpage
+> - CSS Flexbox layout
 
 ### Self-Review
 
-- Followed design specification and produced an almost identical webpage
+> - Followed design specification and produced an almost identical webpage
 
 ## 3) Pet Grooming Form
+
+### Site
+
+>  [Paw-some Grooming Site Link](https://paw-some-grooming.netlify.app/)
+
+![pawsome-grooming-site-screenshot](https://github.com/sbhatoye/HTML-CSS-projects/assets/121978043/82a9d2a3-3dfd-4673-9f1c-ba861f4e3506)
 
 ### About 
 
@@ -72,18 +84,22 @@ Design created using Figma: [Grooming Form - Figma Design Link](https://www.figm
 
 ### Key Learnings
 
-- HTML Form elements
-- Regular expressions
-- CSS Grid layout 
-- Responsive web design
+> - HTML Form elements
+> - Regular expressions
+> - CSS Grid layout 
+> - Responsive web design
 
 ### Self-Review
 
-- Good division of different segments using the section tags
-- Good use of class keyword in tags to group sections with similar styling together 
-- Responsive design does not take devices with screen sizes smaller than 470px  into consideration 
+> - Good division of different segments using the section tags
+> - Good use of class keyword in tags to group sections with similar styling together 
+> - Responsive design does not take devices with screen sizes smaller than 470px  into consideration 
 
 ## 4) Scenic Sunsets
+
+>  [Scenic Sunsets Site Link](https://scenic-sunsets.netlify.app/)
+
+![scenic-sunsets-site-screenshot](https://github.com/sbhatoye/HTML-CSS-projects/assets/121978043/bddea996-6fea-4d7b-83ef-9b1ae1690a87)
 
 ### About 
 
@@ -101,5 +117,5 @@ Design created using Figma: [Scenic Sunset - Figma Design Link](https://www.figm
 
 ### Key Learnings
 
-- Parallax scrolling effect
-- CSS custom properties
+> - Parallax scrolling effect
+> - CSS custom properties
