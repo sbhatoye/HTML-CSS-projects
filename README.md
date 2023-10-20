@@ -119,3 +119,4 @@ Design created using Figma: [Scenic Sunset - Figma Design Link](https://www.figm
 
 > - Parallax scrolling effect
 > - CSS custom properties
+> - Open graph meta tags
